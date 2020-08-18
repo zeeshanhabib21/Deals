@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1839857F24EBC3C700B6FCE0 /* DealDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839857E24EBC3C700B6FCE0 /* DealDetails.swift */; };
 		186891A624E532EE0091DA45 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186891A524E532EE0091DA45 /* CollectionViewCell.swift */; };
 		186891A824E667A60091DA45 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186891A724E667A60091DA45 /* Dashboard.swift */; };
 		186891AA24E7B4F60091DA45 /* FeaturedDealViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186891A924E7B4F60091DA45 /* FeaturedDealViewCell.swift */; };
 		186891AC24E7B60A0091DA45 /* FeaturedDeals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186891AB24E7B60A0091DA45 /* FeaturedDeals.swift */; };
 		186891AE24E7DD790091DA45 /* DealCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186891AD24E7DD790091DA45 /* DealCategories.swift */; };
+		186891D024E7EB560091DA45 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186891CF24E7EB560091DA45 /* CategoryCell.swift */; };
 		18F7D6EC24E4151A00467466 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D6EB24E4151A00467466 /* AppDelegate.swift */; };
 		18F7D6EE24E4151A00467466 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D6ED24E4151A00467466 /* SceneDelegate.swift */; };
 		18F7D6F024E4151A00467466 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D6EF24E4151A00467466 /* ViewController.swift */; };
@@ -23,11 +25,13 @@
 
 /* Begin PBXFileReference section */
 		10EB3F78E066626C4F34324A /* Pods_Deals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1839857E24EBC3C700B6FCE0 /* DealDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealDetails.swift; sourceTree = "<group>"; };
 		186891A524E532EE0091DA45 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		186891A724E667A60091DA45 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
 		186891A924E7B4F60091DA45 /* FeaturedDealViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedDealViewCell.swift; sourceTree = "<group>"; };
 		186891AB24E7B60A0091DA45 /* FeaturedDeals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedDeals.swift; sourceTree = "<group>"; };
 		186891AD24E7DD790091DA45 /* DealCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealCategories.swift; sourceTree = "<group>"; };
+		186891CF24E7EB560091DA45 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		18F7D6E824E4151A00467466 /* Deals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F7D6EB24E4151A00467466 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18F7D6ED24E4151A00467466 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +82,7 @@
 				186891AD24E7DD790091DA45 /* DealCategories.swift */,
 				18F7D6EF24E4151A00467466 /* ViewController.swift */,
 				186891A524E532EE0091DA45 /* CollectionViewCell.swift */,
+				1839857E24EBC3C700B6FCE0 /* DealDetails.swift */,
 				186891A724E667A60091DA45 /* Dashboard.swift */,
 				18F7D6F124E4151A00467466 /* Main.storyboard */,
 				18F7D6F424E4151F00467466 /* Assets.xcassets */,
@@ -85,6 +90,7 @@
 				18F7D6F924E4151F00467466 /* Info.plist */,
 				186891A924E7B4F60091DA45 /* FeaturedDealViewCell.swift */,
 				186891AB24E7B60A0091DA45 /* FeaturedDeals.swift */,
+				186891CF24E7EB560091DA45 /* CategoryCell.swift */,
 			);
 			path = Deals;
 			sourceTree = "<group>";
@@ -225,7 +231,9 @@
 				18F7D6EC24E4151A00467466 /* AppDelegate.swift in Sources */,
 				186891AC24E7B60A0091DA45 /* FeaturedDeals.swift in Sources */,
 				186891AE24E7DD790091DA45 /* DealCategories.swift in Sources */,
+				1839857F24EBC3C700B6FCE0 /* DealDetails.swift in Sources */,
 				186891AA24E7B4F60091DA45 /* FeaturedDealViewCell.swift in Sources */,
+				186891D024E7EB560091DA45 /* CategoryCell.swift in Sources */,
 				186891A824E667A60091DA45 /* Dashboard.swift in Sources */,
 				186891A624E532EE0091DA45 /* CollectionViewCell.swift in Sources */,
 				18F7D6EE24E4151A00467466 /* SceneDelegate.swift in Sources */,

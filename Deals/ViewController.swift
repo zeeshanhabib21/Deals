@@ -55,6 +55,7 @@ extension ViewController: UICollectionViewDelegate,UICollectionViewDataSource
         cell.Name.text = BurgerName[indexPath.row]
         cell.Price.text = Price[indexPath.row]
         cell.collectionImages.image = dealImage[indexPath.row]
+        cell.layer.cornerRadius = 10
         return cell
     }
 }
